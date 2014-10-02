@@ -20,4 +20,5 @@ The technologies I am familiar with include:
 Testimonials:
 
 > Jeff has an amazing and rare talent as a developer. He "gets it". He proved himself early on and was a critical member of the mobile team this term. Without his contributions we could not have delivered the quality of product we did. Super excited to work with him again in the future.
+
 -- Jeff Ashton, Senior Software Developer, Desire2Learn, Fall 2010 Co-op Term
