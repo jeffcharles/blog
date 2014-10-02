@@ -1,3 +1,9 @@
 timezone: "America/Toronto"
 encoding: "utf-8"
 permalink: "/:year/:month/:day/:title"
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
