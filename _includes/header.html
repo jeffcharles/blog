@@ -29,10 +29,18 @@
       </div>
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="/">Entries</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/batarim-logger">Batarim Logger</a></li>
-          <li><a href="">Resume</a></li>
+          <li {% if page.active == "entries" %}class="active"{% endif %}>
+            <a href="/">Entries</a>
+          </li>
+          <li {% if page.active == "about" %}class="active"{% endif %}>
+            <a href="/about">About</a>
+          </li>
+          <li {% if page.active == "batarim-logger" %}class="active"{% endif %}>
+            <a href="/batarim-logger">Batarim Logger</a>
+          </li>
+          <li {% if page.active == "resume" %}class="active"{% endif %}>
+            <a href="">Resume</a>
+          </li>
         </ul>
       </div>
     </div>

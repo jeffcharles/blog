@@ -1,5 +1,6 @@
 ---
 title: About
+active: about
 ---
 My name is Jeffrey Charles and I am a software developer presently employed at Desire2Learn.
 

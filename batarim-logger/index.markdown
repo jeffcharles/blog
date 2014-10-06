@@ -1,5 +1,6 @@
 ---
 title: Batarim Logger
+active: batarim-logger
 ---
 Batarim Logger is an open source application that will log various utilization statistics (e.g., overall CPU and RAM usage) into a CSV file along with what applications were using the most CPU and RAM at a given time and what window was focused. This CSV file can then be analyzed to determine if there are any problems with resource utilization levels, if any applications are stressing the hardware, or for any other purpose that you would like.
 

@@ -6,4 +6,5 @@ defaults:
     scope:
       path: ""
     values:
+      active: "entries"
       layout: "default"
