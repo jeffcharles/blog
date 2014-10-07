@@ -18,3 +18,16 @@ header {
 time {
     color: rgb(44, 62, 80);
 }
+
+ul.index {
+    list-style-type: none;
+}
+
+ul.index li {
+    border-bottom: 1px solid rgb(44, 62, 80);
+    padding: 40px 0px;
+}
+
+ul.index p {
+    margin-top: 25px;
+}
