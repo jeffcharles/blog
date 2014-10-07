@@ -6,6 +6,11 @@ body {
     padding-top: 70px;
 }
 
+h2 {
+    border-top: 1px solid rgb(44, 62, 80);
+    padding-top: 10px;
+}
+
 header {
     margin-bottom: 20px;
 }
