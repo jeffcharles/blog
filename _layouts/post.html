@@ -1,0 +1,14 @@
+{% include header.html %}
+      <article>
+        <header>
+          <h1>{{ page.title }}</h1>
+          <div>By <span class="author">Jeffrey Charles</span></div>
+          <div>Published on
+            <time pubdate datetime="{{ page.date | date: '%F' }}" title="{{ page.date | date: '%B %-d, %Y' }}">
+              {{ page.date | date: "%B %-d, %Y" }}
+            </time>
+          </div>
+        </header>
+        {{ content }}
+      </article>
+{% include footer.html %}

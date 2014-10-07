@@ -7,4 +7,4 @@ defaults:
       path: ""
     values:
       active: "entries"
-      layout: "default"
+      layout: "post"

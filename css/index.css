@@ -1,3 +1,15 @@
+.author {
+    color: rgb(44, 62, 80);
+}
+
 body {
     padding-top: 70px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+time {
+    color: rgb(44, 62, 80);
 }
