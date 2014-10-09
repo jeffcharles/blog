@@ -13,12 +13,12 @@ At the moment, Batarim Logger is compatible with Windows Vista 32-bit and 64-bit
 
 The current release is version 0.7.0 and Windows MSI installers, Linux deb packages, as well as zip archives and gzipped tarballs of the source code are available below:
 
-* Windows 32-bit installer (Vista and 7): [batarim_0.7.0_x86.msi]()
-* Windows 64-bit installer (Vista and 7): [batarim_0.7.0_x64.msi]()
-* Linux 32-bit deb package (Ubuntu and Mint): [batarim_0.7.0_i386.deb]()
-* Linux 64-bit deb package (Ubuntu and Mint): [batarim_0.7.0_amd64.deb]()
-* Windows zip archive (source code): [batarim_0.7.0.zip]()
-* Linux gzipped tarball (source code): [batarim_0.7.0.tar.gz]()
+* Windows 32-bit installer (Vista and 7): [batarim_0.7.0_x86.msi](https://s3.amazonaws.com/btc-assets/batarim_0.7.0_x86.msi)
+* Windows 64-bit installer (Vista and 7): [batarim_0.7.0_x64.msi](https://s3.amazonaws.com/btc-assets/batarim_0.7.0_x64.msi)
+* Linux 32-bit deb package (Ubuntu and Mint): [batarim_0.7.0_i386.deb](https://s3.amazonaws.com/btc-assets/batarim_0.7.0_i386.deb)
+* Linux 64-bit deb package (Ubuntu and Mint): [batarim_0.7.0_amd64.deb](https://s3.amazonaws.com/btc-assets/batarim_0.7.0_amd64.deb)
+* Windows zip archive (source code): [batarim_0.7.0.zip](https://s3.amazonaws.com/btc-assets/Batarim_0.7.0.zip)
+* Linux gzipped tarball (source code): [batarim_0.7.0.tar.gz](https://s3.amazonaws.com/btc-assets/batarim_0.7.0.tar.gz)
 
 ## Source Code and License
 
