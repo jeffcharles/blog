@@ -19,6 +19,14 @@ time {
     color: rgb(44, 62, 80);
 }
 
+.resume {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 ul.index {
     list-style-type: none;
 }
