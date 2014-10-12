@@ -7,7 +7,7 @@ Batarim Logger is an open source application that will log various utilization s
 
 ## System Requirements
 
-At the moment, Batarim Logger is compatible with Windows Vista 32-bit and 64-bit, Windows 7 32-bit and 64-bit, and most modern GNU&#47;Linux 32 and 64 bit operating systems running on an Intel or AMD processor with X11 installed. The focused window feature requires GDM as the login manager (the default with most desktop Linux systems running GNOME), though the rest of the application will function normally if that requirement is not met.</p>
+At the moment, Batarim Logger is compatible with Windows Vista 32-bit and 64-bit, Windows 7 32-bit and 64-bit, and most modern GNU&#47;Linux 32 and 64 bit operating systems running on an Intel or AMD processor with X11 installed. The focused window feature requires GDM as the login manager (the default with most desktop Linux systems running GNOME), though the rest of the application will function normally if that requirement is not met.
 
 ## Downloads
 
