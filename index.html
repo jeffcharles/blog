@@ -10,6 +10,10 @@ layout: index
         {{ post.date | date: "%B %-d, %Y" }}
       </time>
     </div>
+    <div>
+      <a href="{{ post.url }}#disqus_thread"
+         data-disqus-identifier="{{ post.id }}"></a>
+    </div>
     {{ post.excerpt }}
   </li>
   {% endfor %}
