@@ -1,6 +1,11 @@
 timezone: "America/Toronto"
 encoding: "utf-8"
 permalink: "/:year/:month/:day/:title"
+
+name: "Beyond Technically Correct"
+description: "Jeffrey Charles's technology blog"
+url: "http://www.beyondtechnicallycorrect.com"
+
 defaults:
   -
     scope:
