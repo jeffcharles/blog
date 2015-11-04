@@ -3,21 +3,20 @@ title: About
 layout: page
 active: about
 ---
-My name is Jeffrey Charles and I am a software developer presently employed at Desire2Learn.
+My name is Jeffrey Charles and I am a Senior Developer presently employed at Canadian Tire in their Digital Garage innovation lab.
 
 My previous employers include:
 
+* D2L (Senior Software Developer)
 * Scotia Capital (Credit and Market Risk Analyst)
 * Sun Life Financial (Business Systems Analyst)
 * Rogers Communications (Marketing Analyst)
 
-The technologies I am familiar with include:
+Technologies I am familiar with include:
 
-* C# (both in the context of ASP.NET and desktop development)
-* JavaScript (jQuery and native JavaScript)
-* Python (Django framework and scripting)
-* VBA (various spreadsheet automation tasks)
-* SQL (some web development experience with TSQL and PL/pgSQL)
+* JavaScript (Node.js, React, Angular, and jQuery)
+* C# (for web applications)
+* SQL (Web development experience with SQL Server and PostgreSQL)
 
 Testimonials:
 
