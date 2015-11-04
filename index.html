@@ -4,17 +4,23 @@ layout: index
 <ul class="index">
   {% for post in site.posts %}
   <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <div>Published on
-      <time pubdate datetime="{{ post.date | date: '%F' }}" title="{{ post.date | date: '%B %-d, %Y' }}">
-        {{ post.date | date: "%B %-d, %Y" }}
-      </time>
-    </div>
-    <div>
-      <a href="{{ post.url }}#disqus_thread"
-         data-disqus-identifier="{{ post.id }}"></a>
-    </div>
-    {{ post.excerpt }}
+    <article>
+      <header>
+        <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
+        <div>Published on
+          <time pubdate datetime="{{ post.date | date: '%F' }}" title="{{ post.date | date: '%B %-d, %Y' }}">
+            {{ post.date | date: "%B %-d, %Y" }}
+          </time>
+        </div>
+        <div>
+          <a href="{{ post.url }}#disqus_thread"
+             data-disqus-identifier="{{ post.id }}"></a>
+        </div>
+      </header>
+      <main>
+        {{ post.excerpt }}
+      </main>
+    </article>
   </li>
   {% endfor %}
 </ul>

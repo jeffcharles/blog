@@ -15,6 +15,23 @@ header {
     margin-bottom: 20px;
 }
 
+main {
+    font-family: Georgia, Times, serif;
+    font-size: 21px;
+    line-height: 1.58;
+    width: 700px;
+}
+
+main > p {
+    margin-bottom: 25px;
+}
+
+pre code {
+    overflow: visible;
+    white-space: pre;
+    word-wrap: normal;
+}
+
 time {
     color: rgb(44, 62, 80);
 }
@@ -34,6 +51,10 @@ ul.index {
 ul.index li {
     border-bottom: 1px solid rgb(44, 62, 80);
     padding: 40px 0px;
+}
+
+ul.index main {
+    font-size: 18px;
 }
 
 ul.index p {
