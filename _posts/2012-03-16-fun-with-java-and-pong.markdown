@@ -108,7 +108,7 @@ Simply put, automated testing is a must with most software. One thing my experie
 
 Luckily, modern languages like Java usually have test frameworks and design patterns that greatly aid in testing code in isolation. For this project, I used JUnit to create test suites and test cases, Mockito for mocking out dependencies, and Google Guice for simplifying constructor dependency injection.
 
-I'm particularly happy with Google Guice. As with most other dependency injection frameworks, you create a public module for your package with bindings between interfaces and classes and designate which constructor in your class is injectable. A very cool feature I discovered was that you could bind two different interfaces to the same singleton, which is particularly helpful when using the publish/subscribe design pattern. An example of this is in (https://github.com/jeffcharles/pong/blob/master/src/main/java/com/beyondtechnicallycorrect/pong/models/game/GameModule.java "GameModule")[GameModule]:
+I'm particularly happy with Google Guice. As with most other dependency injection frameworks, you create a public module for your package with bindings between interfaces and classes and designate which constructor in your class is injectable. A very cool feature I discovered was that you could bind two different interfaces to the same singleton, which is particularly helpful when using the publish/subscribe design pattern. An example of this is in [GameModule](https://github.com/jeffcharles/pong/blob/master/src/main/java/com/beyondtechnicallycorrect/pong/models/game/GameModule.java "GameModule"):
 
 {% highlight java %}
 bind(MatchStateNotificationService.class).in(Singleton.class);
@@ -142,7 +142,7 @@ g2.setRenderingHint(
 
 This fix helped enormously.
 
-## Java vs C#
+## Java vs C\#
 
 In general, I prefer working with C# compared to Java. Most of my reasons are the same ones that other developers have raised online ad nauseam so I won't repeat them here. That being said, there are some nice language features in Java that C# doesn't have:
 
