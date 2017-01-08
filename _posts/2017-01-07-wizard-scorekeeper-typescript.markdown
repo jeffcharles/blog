@@ -1,0 +1,13 @@
+---
+title: Wizard Scorekeeper and TypeScript
+---
+
+One of my friends recently purchased the Wizard card game. We wanted a way to keep track of the score but found that existing apps were missing features like being able to undo the last set of bids or tricks input. I was interested in playing around with TypeScript so I decided to build a static web app to do it.
+
+I found TypeScript offered a useful way to catch some simple coding mistakes like misspelling a property name. I also found the IntelliSense Visual Studio Code offered while using it to be helpful. React and JSX also played quite nicely with TypeScript. The type system feels pretty lightweight and mostly keeps out of the way.
+
+On the other hand, I found the null/undefined checks that the TypeScript compiler performs were not sufficient to catch some of the errors I made. One example was reading a number out of a dictionary with string-typed keys would incorrectly get typed as a number type instead of as a number or undefined type. While I appreciate that this may be a deliberate design decision to avoid annoying developers when the strings are set at initialization, I think Kotlin's approach of requiring a `!!` in front of possibly null values is the better approach for telling the type checker that it should not perform a null-safety check. Another issue was that some UI frameworks like Vue which use Webpack loaders like the Vue component loader do not play nicely with TypeScript. This is a consequence of most framework authors targeting JavaScript first and not doing a TypeScript port but it still acts to limit your options.
+
+Overall I think the trade-off is in TypeScript's favour in the general case, however a preference for certain libraries may force your hand back to JavaScript.
+
+In terms of making this a static web app instead of a mobile app, there were a couple minor items that presented issues. One problem was that I could not keep the screen on. There's a proposed Wakelock API for the browser (<https://w3c.github.io/wake-lock/>) but it's not implemented outside of Firefox OS. The other issue is that the animations are noticeably laggy in Safari on iOS. Making this as a web app still seemed like the right decision purely from an implementation speed perspective.
