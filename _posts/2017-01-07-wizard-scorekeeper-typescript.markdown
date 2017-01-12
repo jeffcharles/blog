@@ -2,7 +2,7 @@
 title: Wizard Scorekeeper and TypeScript
 ---
 
-One of my friends recently purchased the Wizard card game. We wanted a way to keep track of the score but found that existing apps were missing features like being able to undo the last set of bids or tricks input. I was interested in playing around with TypeScript so I decided to build a static web app to do it.
+One of my friends recently purchased the Wizard card game. We wanted a way to keep track of the score but found that existing apps were missing features like being able to undo the last set of bids or tricks input. I was interested in playing around with TypeScript so I decided to build a static web app to do it. The result can be seen at <https://wizard-scorekeeper.beyondtechnicallycorrect.com> and the source code is located at <https://github.com/jeffcharles/wizard-scorekeeper>.
 
 I found TypeScript offered a useful way to catch some simple coding mistakes like misspelling a property name. I also found the IntelliSense Visual Studio Code offered while using it to be helpful. React and JSX also played quite nicely with TypeScript. The type system feels pretty lightweight and mostly keeps out of the way.
 
